@@ -1,0 +1,54 @@
+
+<style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login {
+      width: 300px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .login h2 {
+      text-align: center;
+    }
+    .login input[type="text"],
+    .login input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .login button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #0f0f0f;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .login button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+  
+  <div class="login">
+    <h2>Login</h2>
+    <form>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
